@@ -1,3 +1,7 @@
+
+/* Default Tags */
+
+/* Headers */
 header{
   width: 100%;
   background-color: black;
@@ -5,12 +9,22 @@ header{
   height: 70px; 
 }
 
+/* Nav content */
 nav{
   background-color: #242424;
 }
 
+/* Body Content */
+
+
+/* Footer Content */
 footer{
   width: 100%;
   background-color: black;
   color: white;
 }
+
+/* User Classes */
+
+
+/* User Ids */
