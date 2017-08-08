@@ -3,6 +3,7 @@
 
 /* Headers */
 header{
+  padding: 10px;
   width: 100%;
   background-color: black;
   color: white;
@@ -20,6 +21,7 @@ nav{
 
 /* Footer Content */
 footer{
+  padding: 10px;
   width: 100%;
   background-color: black;
   color: white;
