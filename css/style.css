@@ -5,6 +5,10 @@ header{
   height: 70px; 
 }
 
+nav{
+  background-color: #242424;
+}
+
 footer{
   width: 100%;
   background-color: black;
