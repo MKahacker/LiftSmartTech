@@ -6,7 +6,8 @@ ne.addEventListener("click", changeSlide(1), false);
 pr.addEventListener("click", changeSlide(-1), false);
 
 function changeSlide(n){
-  displaySlide(slideIndex += n); 
+  slideIndex += n;
+  displaySlide(slideIndex); 
 }
 
 function displaySlide(n){
