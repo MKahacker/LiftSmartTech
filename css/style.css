@@ -1,4 +1,4 @@
-/* -----------------------------Default Tags--------------------------------- */
+/* -----------------------------Default Tags-----------------------------------  */
 
 /* Headers */
 header{
@@ -44,7 +44,7 @@ footer{
 }
 
 .next:hover, .prev:hover{
-  border: 2px solid light grey;
+  border: 2px solid grey;
   color: grey;
 }
 
