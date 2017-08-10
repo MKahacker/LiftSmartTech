@@ -1,7 +1,9 @@
 var slideIndex = 1;
 displaySlide(slideIndex);
-document.getElementsByClassName("next").addEventListener("click", changeSlide(1), false);
-document.getElementsByClassName("prev").addEventListener("click", changeSlide(-1), false);
+var ne = document.getElementsByClassName("next");
+var pr = document.getElementsByClassName("prev");
+ne.addEventListener("click", changeSlide(1), false);
+pr.addEventListener("click", changeSlide(-1), false);
 
 function changeSlide(n){
   displaySlide(slideIndex += n); 
