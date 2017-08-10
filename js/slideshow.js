@@ -19,8 +19,8 @@ function displaySlide(n){
   if(n > x.lenght){
     slideIndex = 1;
   }
-  for(i = 0; i < x.length; i++){
+ /* for(i = 0; i < x.length; i++){
     x[i].style.display = "none";
   }
-  x[slideIndex-1].style.display = "block";
+  x[slideIndex-1].style.display = "block";*/
 }
