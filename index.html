@@ -37,6 +37,12 @@
     <footer>
       <p> This is a footer </p>
     </footer>
+    <script>
+      var ne = document.getElementById("nbutton"); 
+      var pr = document.getElementById("pbutton");
+      ne.addEventListener("click", changeSlide(1), false);
+      pr.addEventListener("click", changeSlide(-1), false);
+    </script>
     <script async defer src="js/slideshow.js"></script>
   </body>
 </html>
