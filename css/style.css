@@ -1,5 +1,6 @@
 
 
+
 /* Default Tags */
 
 /* Headers */
@@ -36,6 +37,7 @@ footer{
 .next, .prev{
   position: absolute;
   top: 40px;
+  z-index: 1;
 }
 
 /* User Ids */
