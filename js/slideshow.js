@@ -13,10 +13,10 @@ function changeSlide(n){
 function displaySlide(n){
   var i; 
   var x = document.getElementsByClassName("slide-images");
-  if(n < 1){
+  if(slideIndex < 1){
     slideIndex = x.lenght;
   }
-  if(n > x.lenght){
+  if(slideIndex > x.lenght){
     slideIndex = 1;
   }
  /* for(i = 0; i < x.length; i++){
