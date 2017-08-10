@@ -1,5 +1,11 @@
 var slideIndex = 1;
 displaySlide(slideIndex);
+document.getElementByClassName("next").addEventListener("click", changeSlide(1), false);
+document.getElementByClassName("prev").addEventListener("click", changeSlide(-1), false);
+
+function changeSlide(n){
+  displaySlide(slideIndex += n); 
+}
 
 function displaySlide(n){
   var i; 
@@ -13,5 +19,5 @@ function displaySlide(n){
   for(i = 0; i < x.length; i++){
     x[i].style.display = "none";
   }
-  x[slideIndex-1].style.display = "block;
+  x[slideIndex-1].style.display = "block";
 }
