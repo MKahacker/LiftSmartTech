@@ -1,8 +1,5 @@
 
-
-
-
-/* Default Tags */
+/* -----------------------------Default Tags--------------------------------- */
 
 /* Headers */
 header{
@@ -30,7 +27,9 @@ footer{
   color: white;
 }
 
-/* User Classes */
+/* --------------------------------User Classes---------------------------------- */
+
+/* Slide Show */
 .slide-images{
   width: 100%;
 }
@@ -50,4 +49,8 @@ footer{
   left: 5px; 
 }
 
-/* User Ids */
+.caption-text{
+  position: absolute; 
+}
+
+/* ---------------------------------User Ids-------------------------------------- */
