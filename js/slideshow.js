@@ -1,7 +1,7 @@
 var slideIndex = 1;
 displaySlide(slideIndex);
-var ne = document.getElementsByClassName("next");
-var pr = document.getElementsByClassName("prev");
+var ne = document.getElementByIdName("nbutton");
+var pr = document.getElementByIdName("pbutton");
 ne.addEventListener("click", changeSlide(1), false);
 pr.addEventListener("click", changeSlide(-1), false);
 
