@@ -1,6 +1,7 @@
 
 
 
+
 /* Default Tags */
 
 /* Headers */
@@ -36,8 +37,17 @@ footer{
 
 .next, .prev{
   position: absolute;
-  top: 40px;
+  top: 350px;
   z-index: 1;
+  font-size: 35px;
+}
+
+.next{
+  right: 5px; 
+}
+
+.prev{
+  left: 5px; 
 }
 
 /* User Ids */
