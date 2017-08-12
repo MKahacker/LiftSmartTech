@@ -9,14 +9,15 @@
   <body>
     <header>
       <div class="header-container">
-        <p> Welcome to Lift Smart </p>
+        <img src="images/logo-liftsmart.PNG" class="logo-index">
       </div>
     </header>
     
-    <nav>
+   <!-- <nav>
       <p> Nav bar is here </p>
-    </nav>
+    </nav> -->
     
+    <!-- Slide Show -->
     <section>
       <div class="slideshow-container">
         <div class="slides">
@@ -29,20 +30,26 @@
         <div class="slides">
           <img src="images/IMG_0007.JPG" class="slide-images">         
         </div>
-        <a class="prev" id="nbutton" onclick="changeSlide(1)">&#10094;</a>
-        <a class="next" id="pbutton" onclick="changeSlide(-1)">&#10095;</a>
+        <a class="prev" id="nbutton" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" id="pbutton" onclick="changeSlide(1)">&#10095;</a>
+      </div>
+    </section>
+    
+    <!-- Intro -->
+    <section>
+      <div class="content spaced">
+        <div class="title">
+          <h2> About Us </h2>
+        </div>
+        <p> Lift Smart was formed in early 2017 by Mahmoud Kahack, Jay Korhonen, and Mohsin Haider. We basically noticed that many people who
+            frequented the gym used paper and pencil to record the number of sets and weight that they perform at their workout sessions. 
+            We saw this as a problem because it took time and effort to write everything down.           
       </div>
     </section>
     
     <footer>
       <p> This is a footer </p>
     </footer>
-    <script>
-      var ne = document.getElementById("nbutton"); 
-      var pr = document.getElementById("pbutton");
-      ne.addEventListener("click", changeSlide(1), false);
-      pr.addEventListener("click", changeSlide(-1), false);
-    </script>
     <script async defer src="js/slideshow.js"></script>
   </body>
 </html>
