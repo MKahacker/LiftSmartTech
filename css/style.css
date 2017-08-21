@@ -15,9 +15,10 @@ nav{
 
 /* Body Content */
 p{
-  margin: 40px;
-  font-size: 23px;
-  text-align: center;
+  margin: 40px 0;
+  font-size: 25px;
+  clear: both;
+  /*text-align: center;*/
 }
 
 /* Footer Content */
@@ -26,6 +27,11 @@ footer{
   width: 100%;
   background-color: black;
   color: white;
+}
+
+h2{
+  font-size: 33px;
+  color: #fff;
 }
 
 /* --------------------------------User Classes---------------------------------- */
@@ -43,7 +49,9 @@ footer{
 /* Slide Show */
 .slide-images{
   width: 100%;
+  border-bottom: 3px black solid;
 }
+
 
 .next, .prev{
   cursor: pointer;
@@ -76,20 +84,39 @@ footer{
 
 /*Content*/
 .spaced{
-  margin: 115px 0; 
+  margin: 50px 0; 
 }
 
 .content{
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
 .title{
-  text-align: center;
-  padding:4px;
+  /*text-align: center;*/
+  padding:2px 0 2px 95px;
   background-color: #3ae7ad;
-  margin: 0 40%;
-  border-radius: 25px;
+  /*margin: 0 28%;*/
+  border-radius: 0 50px 50px 0;
   color: #000;
+  width: 250px;
 }
+
+.title-right{
+  text-align: right;
+  border-radius: 50px 0 0 50px;
+  float: right;
+  padding: 2px 95px 2px 0;
+  margin-bottom: 40px;
+}
+
+.horRul{
+
+}
+
+.parSpa{
+  margin-left: 40px;
+}
+
+
 /* ---------------------------------User Ids-------------------------------------- */
